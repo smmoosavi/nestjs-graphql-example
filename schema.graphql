@@ -16,4 +16,5 @@ type ViewerNode {
   id: ID!
   book(id: String!): BookNode
   books: [BookNode!]!
+  secretBooks: [BookNode!]!
 }
